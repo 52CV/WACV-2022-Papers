@@ -116,7 +116,7 @@
 * 自动驾驶
   * [Multi-View Fusion of Sensor Data for Improved Perception and Prediction in Autonomous Driving](https://arxiv.org/abs/2008.11901)
   * 目标检测
-   * [Adversarial Robustness of Deep Sensor Fusion Models](https://arxiv.org/abs/2006.13192)
+    * [Adversarial Robustness of Deep Sensor Fusion Models](https://arxiv.org/abs/2006.13192)
 
 <a name="22"/>
 
@@ -193,7 +193,7 @@
 
 ## 14.Semi-Supervised Learning(半监督学习)
 * 半监督
-  * [HierMatch: Leveraging Label Hierarchies for Improving Semi-Supervised Learning](https://arxiv.org/abs/2111.00164)<br>:star:[code](https://github.com/07Agarg/HIERMATCH）
+  * [HierMatch: Leveraging Label Hierarchies for Improving Semi-Supervised Learning](https://arxiv.org/abs/2111.00164)<br>:star:[code](https://github.com/07Agarg/HIERMATCH)
 
 <a name="13"/>
 
