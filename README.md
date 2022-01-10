@@ -153,6 +153,7 @@
   * [Model Compression Using Optimal Transport](https://arxiv.org/abs/2012.03907)
 * 知识蒸馏
   * [Extractive Knowledge Distillation](https://openaccess.thecvf.com/content/WACV2022/papers/Kobayashi_Extractive_Knowledge_Distillation_WACV_2022_paper.pdf)
+  * [Self-Guidance: Improve Deep Neural Network Generalization via Knowledge Distillation](https://openaccess.thecvf.com/content/WACV2022/papers/Zheng_Self-Guidance_Improve_Deep_Neural_Network_Generalization_via_Knowledge_Distillation_WACV_2022_paper.pdf)
 * 剪枝
   * [Hessian-Aware Pruning and Optimal Neural Implant](http://arxiv.org/abs/2101.08940)<br>:star:[code](https://github.com/yaozhewei/HAP)
 
@@ -201,6 +202,7 @@
 * [Semantically Stealthy Adversarial Attacks Against Segmentation Models](https://arxiv.org/abs/2104.01732)
 * 视频分割
   * [D2Conv3D: Dynamic Dilated Convolutions for Object Segmentation in Videos](https://openaccess.thecvf.com/content/WACV2022/papers/Schmidt_D2Conv3D_Dynamic_Dilated_Convolutions_for_Object_Segmentation_in_Videos_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/Schmiddo/d2conv3d)
+  * [Temporally Stable Video Segmentation Without Video Annotations](https://arxiv.org/abs/2110.08893)
 * VOS(视频目标分割)
   * [Pixel-Level Bijective Matching for Video Object Segmentation](https://arxiv.org/abs/2110.01644)<br>:star:[code](https://github.com/suhwan-cho/BMVOS)
 * 语义分割
@@ -223,6 +225,8 @@
   * [In-Field Phenotyping Based on Crop Leaf and Plant Instance Segmentation](https://openaccess.thecvf.com/content/WACV2022/papers/Weyler_In-Field_Phenotyping_Based_on_Crop_Leaf_and_Plant_Instance_Segmentation_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/PRBonn/leaf-plant-instance-segmentation)
 * 全景分割
   * [Single-Shot Path Integrated Panoptic Segmentation](https://arxiv.org/abs/2012.01632)
+  * 视频全景分割
+    * [Time-Space Transformers for Video Panoptic Segmentation](https://openaccess.thecvf.com/content/WACV2022/papers/Petrovai_Time-Space_Transformers_for_Video_Panoptic_Segmentation_WACV_2022_paper.pdf)
 
 <a name="12"/>
 
@@ -236,6 +240,7 @@
   * [Learning to Weight Filter Groups for Robust Classification](https://openaccess.thecvf.com/content/WACV2022/papers/Yuan_Learning_to_Weight_Filter_Groups_for_Robust_Classification_WACV_2022_paper.pdf)
 * 小样本学习
   * [Contextual Gradient Scaling for Few-Shot Learning](https://arxiv.org/abs/2110.10353)<br>:star:[code](https://github.com/shlee625/CxGrad)
+  * [Calibrating CNNs for Few-Shot Meta Learning](https://openaccess.thecvf.com/content/WACV2022/papers/Yang_Calibrating_CNNs_for_Few-Shot_Meta_Learning_WACV_2022_paper.pdf)
 
 <a name="11"/>
 
@@ -255,6 +260,8 @@
   * [Measuring Representation of Race, Gender, and Age in Children's Books: Face Detection and Feature Classification in Illustrated Images](https://openaccess.thecvf.com/content/WACV2022/papers/Szasz_Measuring_Representation_of_Race_Gender_and_Age_in_Childrens_Books_WACV_2022_paper.pdf)
 * PAD人脸呈现攻击检测
   * [Learnable Multi-Level Frequency Decomposition and Hierarchical Attention Mechanism for Generalized Face Presentation Attack Detection](https://arxiv.org/abs/2109.07950)<br>:star:[code](https://github.com/meilfang/LMFD-PAD)
+* 年龄预测
+  * [Fair and Accurate Age Prediction Using Distribution Aware Data Curation and Augmentation](https://arxiv.org/abs/2009.05283)<br>:star:[code](https://github.com/ForBlindRev/AIBias)
 
 <a name="10"/>
 
@@ -285,9 +292,12 @@
   * [Forgery Detection by Internal Positional Learning of Demosaicing Traces](https://openaccess.thecvf.com/content/WACV2022/papers/Bammey_Forgery_Detection_by_Internal_Positional_Learning_of_Demosaicing_Traces_WACV_2022_paper.pdf)
 * 图像裁剪
   * [Auditing Saliency Cropping Algorithms](https://openaccess.thecvf.com/content/WACV2022/papers/Birhane_Auditing_Saliency_Cropping_Algorithms_WACV_2022_paper.pdf)
+  * [Re-Compose the Image by Evaluating the Crop on More Than Just a Score](https://openaccess.thecvf.com/content/WACV2022/papers/Cheng_Re-Compose_the_Image_by_Evaluating_the_Crop_on_More_Than_WACV_2022_paper.pdf)
 * 图像恢复
   * [Training a Task-Specific Image Reconstruction Loss](https://arxiv.org/abs/2103.14616)
   * [Image Restoration by Deep Projected GSURE](https://openaccess.thecvf.com/content/WACV2022/papers/Abu-Hussein_Image_Restoration_by_Deep_Projected_GSURE_WACV_2022_paper.pdf)
+* 图像修复
+  * [Resolution-Robust Large Mask Inpainting With Fourier Convolutions](https://arxiv.org/abs/2109.07161)<br>:star:[code](https://github.com/saic-mdal/lama)
 * 图像降质
   * [Deep Photo Scan: Semi-Supervised Learning for dealing with the real-world degradation in Smartphone Photo Scanning](https://arxiv.org/abs/2102.06120)<br>:star:[code](https://github.com/minhmanho/dpscan):house:[project](https://minhmanho.github.io/dpscan/)
 * Image decomposition(图像分解)
@@ -297,6 +307,7 @@
     * [Robust High-Resolution Video Matting with Temporal Guidance](https://arxiv.org/abs/2108.11515)<br>:star:[code](https://github.com/PeterL1n/RobustVideoMatting):house:[project](https://peterl1n.github.io/RobustVideoMatting/#/):tv:[video](https://youtu.be/Ay-mGCEYEzM)
 * 图像着色
   * [Late-Resizing: A Simple but Effective Sketch Extraction Strategy for Improving Generalization of Line-Art Colorization](https://openaccess.thecvf.com/content/WACV2022/papers/Kim_Late-Resizing_A_Simple_but_Effective_Sketch_Extraction_Strategy_for_Improving_WACV_2022_paper.pdf)
+  * [Pro-CCaps: Progressively Teaching Colourisation to Capsules](https://openaccess.thecvf.com/content/WACV2022/papers/Pucci_Pro-CCaps_Progressively_Teaching_Colourisation_to_Capsules_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/Riretta/Pro_CCaps-Progressive-learning-with-capsules)
 
 <a name="7"/>
 
@@ -333,6 +344,8 @@
 * 视频字幕
   * [Co-Segmentation Aided Two-Stream Architecture for Video Captioning](https://openaccess.thecvf.com/content/WACV2022/papers/Vaidya_Co-Segmentation_Aided_Two-Stream_Architecture_for_Video_Captioning_WACV_2022_paper.pdf)
   * [Variational Stacked Local Attention Networks for Diverse Video Captioning](https://openaccess.thecvf.com/content/WACV2022/papers/Deb_Variational_Stacked_Local_Attention_Networks_for_Diverse_Video_Captioning_WACV_2022_paper.pdf)
+* 视频人物定位
+  * [Extraction of Positional Player Data From Broadcast Soccer Videos](https://openaccess.thecvf.com/content/WACV2022/papers/Theiner_Extraction_of_Positional_Player_Data_From_Broadcast_Soccer_Videos_WACV_2022_paper.pdf)
 
 <a name="5"/>
 
@@ -356,6 +369,10 @@
   * [Learning Maritime Obstacle Detection From Weak Annotations by Scaffolding](https://openaccess.thecvf.com/content/WACV2022/papers/Zust_Learning_Maritime_Obstacle_Detection_From_Weak_Annotations_by_Scaffolding_WACV_2022_paper.pdf)
 * 人造卫星识别
   * [SpectraNet: Learned Recognition of Artificial Satellites From High Contrast Spectroscopic Imagery](https://openaccess.thecvf.com/content/WACV2022/papers/Gazak_SpectraNet_Learned_Recognition_of_Artificial_Satellites_From_High_Contrast_Spectroscopic_WACV_2022_paper.pdf)
+* Object Anti-Spoofing
+  * [MToFNet: Object Anti-Spoofing with Mobile Time-of-Flight Data](https://arxiv.org/abs/2110.04066)<br>:star:[code](https://github.com/SamsungSDS-Team9/mToFNet)
+* 3D目标检测
+  * [ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178)<br>:star:[code](https://github.com/saic-vul/imvoxelnet)
 
 <a name="4"/>
 
@@ -379,6 +396,8 @@
   * [Single-Shot Dense Active Stereo With Pixel-Wise Phase Estimation Based on Grid-Structure Using CNN and Correspondence Estimation Using GCN](https://openaccess.thecvf.com/content/WACV2022/papers/Furukawa_Single-Shot_Dense_Active_Stereo_With_Pixel-Wise_Phase_Estimation_Based_on_WACV_2022_paper.pdf)
 * stereo vision(立体视觉)
   * [PredStereo: An Accurate Real-Time Stereo Vision System](https://openaccess.thecvf.com/content/WACV2022/papers/Moolchandani_PredStereo_An_Accurate_Real-Time_Stereo_Vision_System_WACV_2022_paper.pdf)
+* 网格重建
+  * [AttWalk: Attentive Cross-Walks for Deep Mesh Analysis](https://arxiv.org/abs/2104.11571)
 
 <a name="2"/>
 
@@ -420,3 +439,4 @@
 * [Self-Supervised Pretraining Improves Self-Supervised Pretraining](https://arxiv.org/abs/2103.12718)
 * [PROVES: Establishing Image Provenance Using Semantic Signatures](https://arxiv.org/abs/2110.11411)
 * [Addressing Out-of-Distribution Label Noise in Webly-Labelled Data](https://arxiv.org/abs/2110.13699)<br>:star:[code](https://github.com/PaulAlbert31/DSOS)
+* [Towards Durability Estimation of Bioprosthetic Heart Valves via Motion Symmetry Analysis](https://openaccess.thecvf.com/content/WACV2022/papers/Alizadeh_Towards_Durability_Estimation_of_Bioprosthetic_Heart_Valves_via_Motion_Symmetry_WACV_2022_paper.pdf)
