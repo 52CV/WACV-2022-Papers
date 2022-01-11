@@ -43,6 +43,7 @@
 ## SLAM
 * SLAM
   * [HybVIO: Pushing the Limits of Real-time Visual-inertial Odometry](https://arxiv.org/abs/2106.11857)<br>:star:[code](https://github.com/SpectacularAI/HybVIO)
+  * [SIGNAV: Semantically-Informed GPS-Denied Navigation and Mapping in Visually-Degraded Environments](https://openaccess.thecvf.com/content/WACV2022/papers/Krasner_SIGNAV_Semantically-Informed_GPS-Denied_Navigation_and_Mapping_in_Visually-Degraded_Environments_WACV_2022_paper.pdf)
 * Try-On
   * [C-VTON: Context-Driven Image-Based Virtual Try-On Network](https://openaccess.thecvf.com/content/WACV2022/papers/Fele_C-VTON_Context-Driven_Image-Based_Virtual_Try-On_Network_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/benquick123/C-VTON)
   * 时尚属性编辑
@@ -53,6 +54,8 @@
 * novelty detection(奇异值检测)
   * [OLED: One-Class Learned Encoder-Decoder Network with Adversarial Context Masking for Novelty Detection](https://arxiv.org/abs/2103.14953)<br>:star:[code](https://github.com/jewelltaylor/OLED)
 
+## Optical Flow(光流)
+* [Detail Preserving Residual Feature Pyramid Modules for Optical Flow](https://arxiv.org/abs/2107.10990)
 
 ## 37.Object Tracking(目标跟踪)
 * 多目标跟踪
@@ -77,6 +80,7 @@
 ## 33.View Synthesis(视图合成)
 * [Revealing Disocclusions in Temporal View Synthesis Through Infilling Vector Prediction](https://arxiv.org/abs/2110.08805)<br>:star:[code](https://github.com/NagabhushanSN95/IVP):house:[project](https://nagabhushansn95.github.io/publications/2021/ivp.html):tv:[video](https://youtu.be/7IYXKOqP2TA)
 * [Fast and Explicit Neural View Synthesis](https://arxiv.org/abs/2107.05775)
+* [Novel-View Synthesis of Human Tourist Photos](https://openaccess.thecvf.com/content/WACV2022/papers/Freer_Novel-View_Synthesis_of_Human_Tourist_Photos_WACV_2022_paper.pdf)
 * 基于姿势引导的动作合成
   * [Pose-Guided Generative Adversarial Net for Novel View Action Synthesis](https://arxiv.org/abs/2110.07993)<br>:star:[code](https://github.com/xhl-video/PAS-GAN)
 
@@ -118,8 +122,10 @@
 
 <a name="26"/>
 
-## 26.Dataset(数据集)
+## 26.Dataset\Benchmark(数据集\基准)
 * [MovingFashion: A Benchmark for the Video-To-Shop Challenge](https://arxiv.org/abs/2110.02627)<br>:sunflower:[dataset](https://github.com/HumaticsLAB/SEAM-Match-RCNN)
+* 用于检测跟踪海域人类
+  * [SeaDronesSee: A Maritime Benchmark for Detecting Humans in Open Water](https://arxiv.org/abs/2105.01922)<br>:sunflower:[dataset](https://seadronessee.cs.uni-tuebingen.de/)
 
 <a name="25"/>
 
@@ -154,6 +160,7 @@
 * [MM-ViT: Multi-Modal Video Transformer for Compressed Video Action Recognition](https://openaccess.thecvf.com/content/WACV2022/papers/Chen_MM-ViT_Multi-Modal_Video_Transformer_for_Compressed_Video_Action_Recognition_WACV_2022_paper.pdf)
 * [Dual-Head Contrastive Domain Adaptation for Video Action Recognition](https://openaccess.thecvf.com/content/WACV2022/papers/da_Costa_Dual-Head_Contrastive_Domain_Adaptation_for_Video_Action_Recognition_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/vturrisi/CO2A)
 * [Skeleton-DML: Deep Metric Learning for Skeleton-Based One-Shot Action Recognition](https://openaccess.thecvf.com/content/WACV2022/papers/Memmesheimer_Skeleton-DML_Deep_Metric_Learning_for_Skeleton-Based_One-Shot_Action_Recognition_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/raphaelmemmesheimer/skeleton-dml)
+* [SWAG-V: Explanations for Video Using Superpixels Weighted by Average Gradients](https://openaccess.thecvf.com/content/WACV2022/papers/Hartley_SWAG-V_Explanations_for_Video_Using_Superpixels_Weighted_by_Average_Gradients_WACV_2022_paper.pdf)
 * 动作定位
   * [Towards Active Vision for Action Localization With Reactive Control and Predictive Learning](https://arxiv.org/abs/2111.05448)
 
@@ -334,6 +341,7 @@
 
 ## 9.Remote Sensing\Satellite Image(遥感\卫星图像)
 * [Lane-Level Street Map Extraction From Aerial Imagery](https://openaccess.thecvf.com/content/WACV2022/papers/He_Lane-Level_Street_Map_Extraction_From_Aerial_Imagery_WACV_2022_paper.pdf)
+* [An Experimental Comparison of Multi-View Stereo Approaches on Satellite Images](https://openaccess.thecvf.com/content/WACV2022/papers/Gomez_An_Experimental_Comparison_of_Multi-View_Stereo_Approaches_on_Satellite_Images_WACV_2022_paper.pdf)
 * 小样本开放集识别
   * [Few-Shot Open-Set Recognition of Hyperspectral Images With Outlier Calibration Network](https://openaccess.thecvf.com/content/WACV2022/papers/Pal_Few-Shot_Open-Set_Recognition_of_Hyperspectral_Images_With_Outlier_Calibration_Network_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/DebabrataPal7/OCN)
 * 卫星图像检测
@@ -414,6 +422,9 @@
   * [Deep Online Fused Video Stabilization](https://arxiv.org/abs/2102.01279)<br>:star:[code](https://github.com/googleinterns/deep-stabilization):house:[project](https://zhmeishi.github.io/dvs/):tv:[video](https://youtu.be/LF_JVdUFIw8)
 * 视频理解
   * [Auto-X3D: Ultra-Efficient Video Understanding via Finer-Grained Neural Architecture Search](https://openaccess.thecvf.com/content/WACV2022/papers/Jiang_Auto-X3D_Ultra-Efficient_Video_Understanding_via_Finer-Grained_Neural_Architecture_Search_WACV_2022_paper.pdf)
+* 有声视频合成
+  * [Strumming to the Beat: Audio-Conditioned Contrastive Video Textures](https://arxiv.org/abs/2104.02687)<br>:star:[code](https://github.com/medhini/audio-video-textures):house:[project](https://medhini.github.io/audio_video_textures/):tv:[video](https://youtu.be/JCuEbSF4kxU)
+
 
 <a name="5"/>
 
@@ -445,6 +456,8 @@
   * [MToFNet: Object Anti-Spoofing with Mobile Time-of-Flight Data](https://arxiv.org/abs/2110.04066)<br>:star:[code](https://github.com/SamsungSDS-Team9/mToFNet)
 * 3D目标检测
   * [ImVoxelNet: Image to Voxels Projection for Monocular and Multi-View General-Purpose 3D Object Detection](https://arxiv.org/abs/2106.01178)<br>:star:[code](https://github.com/saic-vul/imvoxelnet)
+* 显著目标检测
+  * [Video Salient Object Detection via Contrastive Features and Attention Modules](https://arxiv.org/abs/2111.02368)
 
 <a name="4"/>
 
@@ -531,3 +544,6 @@
 * [Supervised Compression for Resource-Constrained Edge Computing Systems](https://arxiv.org/abs/2108.11898)<br>:star:[code](https://github.com/yoshitomo-matsubara/supervised-compression)
 * [Action Anticipation Using Latent Goal Learning](https://openaccess.thecvf.com/content/WACV2022/papers/Roy_Action_Anticipation_Using_Latent_Goal_Learning_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/debadityaroy/LatentGoal)
 * [Non-Semantic Evaluation of Image Forensics Tools: Methodology and Database](https://arxiv.org/abs/2105.02700)
+* [Inpaint2Learn: A Self-Supervised Framework for Affordance Learning](https://openaccess.thecvf.com/content/WACV2022/papers/Zhang_Inpaint2Learn_A_Self-Supervised_Framework_for_Affordance_Learning_WACV_2022_paper.pdf)
+* [RGL-NET: A Recurrent Graph Learning Framework for Progressive Part Assembly](https://openaccess.thecvf.com/content/WACV2022/papers/Narayan_RGL-NET_A_Recurrent_Graph_Learning_Framework_for_Progressive_Part_Assembly_WACV_2022_paper.pdf)
+* [Self-Supervised Knowledge Transfer via Loosely Supervised Auxiliary Tasks](https://arxiv.org/abs/2110.12696)<br>:star:[code](https://github.com/generation21/Self-Supervised-Knowledge-Transfer-via-Loosely-Supervised-Auxiliary-Tasks)
