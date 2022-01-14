@@ -3,13 +3,17 @@
 
 # :exclamation::exclamation::exclamation::star2::star2::star2:📗📗📗WACV 2022收录论文已全部公布，下载可在【我爱计算机视觉】后台回复“paper”，即可收到。共计 406 篇。
 
-# :exclamation::exclamation::exclamation::star2::star2::star2:近期会持续对该会论文进行分类，施工中......
-
+# :exclamation::exclamation::exclamation::star2::star2::star2:分类完成
 # 目录
 
 |:dog:|:mouse:|:hamster:|:tiger:|
 |------|------|------|------|
-|[33.View Synthesis(视图合成)](#33)|[34.Camera Pose Estimation(相机姿势估计)](#34)|
+|[53.Gaze Estimation(视线估计)](#53)|[54.Optical Flow(光流)](#54)|[55.Object Counting(物体计数)](#55)|
+|[49.Debiasing(去偏见)](#49)|[50.Sign Language Translation(手语翻译)](#50)|[51.SSC(语义场景完成)](#51)|[52.Eye Tracking(眼动跟踪)](#52)|
+|[45.Class-Incremental Learning(类增量学习)](#45)|[46.Metric Learning(度量学习)](#46)|[47.Data Augmentation(数据增强)](#47)|[48.Light Fields(光场)](#48)|
+|[41.Action Generation(动作生成)](#41)|[42.Landmark Detection(关键点检测)](#42)|[43.Active Learning(主动学习)](#43)|[44.Multi-Task Learning(多任务学习)](#44)|
+|[37.OT(目标跟踪)](#37)|[38.Sound(音频处理)](#38)|[39.Style Transfer(风格迁移)](#39)|[40.AD(异常检测)](#40)|
+|[33.View Synthesis(视图合成)](#33)|[34.SLAM\Robots](#34)|[35.VQA(视觉问答)](#35)|[36.Soft Biometrics(软生物技术)](#36)|
 |[29.Image Classification(图像分类)](#29)|[30.RL(强化学习)](#30)|[31.Deepfake Detection(假象检测)](#31)|[32.Continual Learning(持续学习)](#32)|
 |[25.Image Captioning(图像字幕)](#25)|[26.Dataset(数据集)](#26)|[27.Defect Detection(缺陷检测)](#27)|[28.OPE(物体姿态估计)](#28)|
 |[21.PC(点云)](#21)|[22.HAR(人体动作识别与检测)](#22)|[23.AD(智能驾驶)](#23)|[24.Image Retrieval(图像检索)](#24)|
@@ -20,87 +24,110 @@
 |[1.其它](#1)|[2.Medical Image(医学影像)](#2)|[3.3D(三维视觉)](#3)|[4.GAN(生成对抗网络)](#4)|
 
 
+<a name="55"/>
 
-## Object Counting()
+## 55.Object Counting(物体计数)
 * [Single Image Object Counting and Localizing Using Active-Learning](https://openaccess.thecvf.com/content/WACV2022/papers/Huberman-Spiegelglas_Single_Image_Object_Counting_and_Localizing_Using_Active-Learning_WACV_2022_paper.pdf)
 
-## Anomaly Detection(异常检测)
+<a name="54"/>
+
+## 54.Optical Flow(光流)
+* [Detail Preserving Residual Feature Pyramid Modules for Optical Flow](https://arxiv.org/abs/2107.10990)
+
+<a name="53"/>
+
+## 53.Gaze Estimation(视线估计)
+* [MTGLS: Multi-Task Gaze Estimation With Limited Supervision](https://arxiv.org/abs/2110.12100)
+
+<a name="52"/>
+
+## 52.Eye Tracking(眼动跟踪)
+* [Event-Based Kilohertz Eye Tracking Using Coded Differential Lighting](https://openaccess.thecvf.com/content/WACV2022/papers/Stoffregen_Event-Based_Kilohertz_Eye_Tracking_Using_Coded_Differential_Lighting_WACV_2022_paper.pdf)
+
+<a name="51"/>
+
+## 51.Semantic Scene Completion(语义场景完成SSC)
+* [Data Augmented 3D Semantic Scene Completion with 2D Segmentation Priors](https://arxiv.org/abs/2111.13309)
+
+<a name="50"/>
+
+## 50.Sign Language Translation(手语翻译)
+* [Sign Language Translation With Hierarchical Spatio-Temporal Graph Neural Network](https://openaccess.thecvf.com/content/WACV2022/papers/Kan_Sign_Language_Translation_With_Hierarchical_Spatio-Temporal_Graph_Neural_Network_WACV_2022_paper.pdf)
+
+<a name="49"/>
+
+## 49.Debiasing(去偏见)
+* [An Investigation of Critical Issues in Bias Mitigation Techniques](https://arxiv.org/abs/2104.00170)<br>:star:[code](https://github.com/erobic/bias-mitigators)
+
+<a name="48"/>
+
+## 48.Light Fields(光场)
+* [Fast and Efficient Restoration of Extremely Dark Light Fields](https://openaccess.thecvf.com/content/WACV2022/papers/Lamba_Fast_and_Efficient_Restoration_of_Extremely_Dark_Light_Fields_WACV_2022_paper.pdf)
+* 相机校准
+  * [Modeling dynamic target deformation in camera calibration](https://arxiv.org/abs/2110.07322)
+* Camera Pose Estimation(相机姿势估计)
+  * [A Structure-Aware Method for Direct Pose Estimation](https://arxiv.org/abs/2012.12360)<br>:star:[code](https://github.com/mvrl/structure-aware-pose-estimation)
+
+<a name="47"/>
+
+## 47.Data Augmentation(数据增强)
+* [Meta Approach to Data Augmentation Optimization](https://arxiv.org/abs/2006.07965)
+* [Improving Model Generalization by Agreement of Learned Representations From Data Augmentation](https://arxiv.org/abs/2110.10536)<br>:star:[code](https://github.com/roatienza/agmax)
+
+<a name="46"/>
+
+## 46.Metric Learning(度量学习)
+* [Multi-Head Deep Metric Learning Using Global and Local Representations](https://arxiv.org/abs/2112.14327)
+* [Hierarchical Proxy-Based Loss for Deep Metric Learning](https://arxiv.org/abs/2103.13538)
+
+<a name="45"/>
+
+## 45.Class-Incremental Learning(类增量学习)
+* [Dataset Knowledge Transfer for Class-Incremental Learning without Memory](https://arxiv.org/abs/2110.08421)<br>:star:[code](https://github.com/HabibSlim/DKT-for-CIL)
+
+<a name="44"/>
+
+## 44.Multi-Task Learning(多任务学习)
+* [Joint Classification and Trajectory Regression of Online Handwriting Using a Multi-Task Learning Approach](https://openaccess.thecvf.com/content/WACV2022/papers/Ott_Joint_Classification_and_Trajectory_Regression_of_Online_Handwriting_Using_a_WACV_2022_paper.pdf)
+* [Semi-Supervised Multi-Task Learning for Semantics and Depth](https://arxiv.org/abs/2110.07197)
+
+<a name="43"/>
+
+## 43.Active Learning(主动学习)
+* [Identifying Wrongly Predicted Samples: A Method for Active Learning](https://arxiv.org/abs/2010.06890)
+
+<a name="42"/>
+
+## 42.Landmark Detection(关键点检测)
+* [LEAD: Self-Supervised Landmark Estimation by Aligning Distributions of Feature Similarity](https://openaccess.thecvf.com/content/WACV2022/papers/Karmali_LEAD_Self-Supervised_Landmark_Estimation_by_Aligning_Distributions_of_Feature_Similarity_WACV_2022_paper.pdf)
+* 人体关键点检测
+  * [Registration of Human Point Set Using Automatic Key Point Detection and Region-Aware Features](https://openaccess.thecvf.com/content/WACV2022/papers/Maharjan_Registration_of_Human_Point_Set_Using_Automatic_Key_Point_Detection_WACV_2022_paper.pdf)
+
+<a name="41"/>
+
+## 41.Action Generation(动作生成)
+* [MUGL: Large Scale Multi Person Conditional Action Generation with Locomotion](https://arxiv.org/abs/2110.11460)<br>:star:[code](https://github.com/skelemoa/mugl):house:[project](https://skeleton.iiit.ac.in/mugl)
+* 基于姿势引导的动作合成
+  * [Pose-Guided Generative Adversarial Net for Novel View Action Synthesis](https://arxiv.org/abs/2110.07993)<br>:star:[code](https://github.com/xhl-video/PAS-GAN)
+
+<a name="40"/>
+
+## 40.Anomaly Detection(异常检测)
 * [CFLOW-AD: Real-Time Unsupervised Anomaly Detection With Localization via Conditional Normalizing Flows](https://openaccess.thecvf.com/content/WACV2022/papers/Gudovskiy_CFLOW-AD_Real-Time_Unsupervised_Anomaly_Detection_With_Localization_via_Conditional_Normalizing_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/gudovskiy/cflow-ad)
 * [A Semi-Supervised Generalized VAE Framework for Abnormality Detection Using One-Class Classification](https://openaccess.thecvf.com/content/WACV2022/papers/Sharma_A_Semi-Supervised_Generalized_VAE_Framework_for_Abnormality_Detection_Using_One-Class_WACV_2022_paper.pdf)
 * novelty detection(奇异值检测)
   * [OLED: One-Class Learned Encoder-Decoder Network with Adversarial Context Masking for Novelty Detection](https://arxiv.org/abs/2103.14953)<br>:star:[code](https://github.com/jewelltaylor/OLED)
 
-## Optical Flow(光流)
-* [Detail Preserving Residual Feature Pyramid Modules for Optical Flow](https://arxiv.org/abs/2107.10990)
+<a name="39"/>
 
-
-## Vehicle Detection
-* 基于航空图像的交通监控
-* [AirCamRTM: Enhancing Vehicle Detection for Efficient Aerial Camera-Based Road Traffic Monitoring](https://openaccess.thecvf.com/content/WACV2022/papers/Makrigiorgis_AirCamRTM_Enhancing_Vehicle_Detection_for_Efficient_Aerial_Camera-Based_Road_Traffic_WACV_2022_paper.pdf)
-
-## (动物姿势)
-* [Equine Pain Behavior Classification via Self-Supervised Disentangled Pose Representation](https://openaccess.thecvf.com/content/WACV2022/papers/Rashid_Equine_Pain_Behavior_Classification_via_Self-Supervised_Disentangled_Pose_Representation_WACV_2022_paper.pdf)
-
-## Gaze Estimation()
-* [MTGLS: Multi-Task Gaze Estimation With Limited Supervision](https://arxiv.org/abs/2110.12100)
-
-## Eye Tracking(眼动跟踪)
-* [Event-Based Kilohertz Eye Tracking Using Coded Differential Lighting](https://openaccess.thecvf.com/content/WACV2022/papers/Stoffregen_Event-Based_Kilohertz_Eye_Tracking_Using_Coded_Differential_Lighting_WACV_2022_paper.pdf)
-
-## Data Augmentation(数据增强)
-* [Improving Model Generalization by Agreement of Learned Representations From Data Augmentation](https://arxiv.org/abs/2110.10536)<br>:star:[code](https://github.com/roatienza/agmax)
-
-## Sign Language Translation(手语翻译)
-* [Sign Language Translation With Hierarchical Spatio-Temporal Graph Neural Network](https://openaccess.thecvf.com/content/WACV2022/papers/Kan_Sign_Language_Translation_With_Hierarchical_Spatio-Temporal_Graph_Neural_Network_WACV_2022_paper.pdf)
-
-## Debiasing(去偏见)
-* [An Investigation of Critical Issues in Bias Mitigation Techniques](https://arxiv.org/abs/2104.00170)<br>:star:[code](https://github.com/erobic/bias-mitigators)
-
-## Light Fields(光场)
-* [Fast and Efficient Restoration of Extremely Dark Light Fields](https://openaccess.thecvf.com/content/WACV2022/papers/Lamba_Fast_and_Efficient_Restoration_of_Extremely_Dark_Light_Fields_WACV_2022_paper.pdf)
-* 相机校准
-  * [Modeling dynamic target deformation in camera calibration](https://arxiv.org/abs/2110.07322)
-
-## Data Augmentation(数据增强)
-* [Meta Approach to Data Augmentation Optimization](https://arxiv.org/abs/2006.07965)
-
-## Continual Learning()
-* [Online Continual Learning via Candidates Voting](https://arxiv.org/abs/2110.08855)
-
-## Metric Learning(度量学习)
-* [Multi-Head Deep Metric Learning Using Global and Local Representations](https://arxiv.org/abs/2112.14327)
-* [Hierarchical Proxy-Based Loss for Deep Metric Learning](https://arxiv.org/abs/2103.13538)
-
-## Class-Incremental Learning(类增量学习)
-* [Dataset Knowledge Transfer for Class-Incremental Learning without Memory](https://arxiv.org/abs/2110.08421)<br>:star:[code](https://github.com/HabibSlim/DKT-for-CIL)
-
-## Multi-Task Learning(多任务学习)
-* [Joint Classification and Trajectory Regression of Online Handwriting Using a Multi-Task Learning Approach](https://openaccess.thecvf.com/content/WACV2022/papers/Ott_Joint_Classification_and_Trajectory_Regression_of_Online_Handwriting_Using_a_WACV_2022_paper.pdf)
-* [Semi-Supervised Multi-Task Learning for Semantics and Depth](https://arxiv.org/abs/2110.07197)
-
-## Active Learning(主动学习)
-* [Identifying Wrongly Predicted Samples: A Method for Active Learning](https://arxiv.org/abs/2010.06890)
-
-## Landmark Detection(关键点检测)
-* [LEAD: Self-Supervised Landmark Estimation by Aligning Distributions of Feature Similarity](https://openaccess.thecvf.com/content/WACV2022/papers/Karmali_LEAD_Self-Supervised_Landmark_Estimation_by_Aligning_Distributions_of_Feature_Similarity_WACV_2022_paper.pdf)
-* 人体关键点检测
-  * [Registration of Human Point Set Using Automatic Key Point Detection and Region-Aware Features](https://openaccess.thecvf.com/content/WACV2022/papers/Maharjan_Registration_of_Human_Point_Set_Using_Automatic_Key_Point_Detection_WACV_2022_paper.pdf)
-
-## Semantic Scene Completion(语义场景完成SSC)
-* [Data Augmented 3D Semantic Scene Completion with 2D Segmentation Priors](https://arxiv.org/abs/2111.13309)
-
-## Action Generation()
-* [MUGL: Large Scale Multi Person Conditional Action Generation with Locomotion](https://arxiv.org/abs/2110.11460)<br>:star:[code](https://github.com/skelemoa/mugl):house:[project](https://skeleton.iiit.ac.in/mugl)
-* 基于姿势引导的动作合成
-  * [Pose-Guided Generative Adversarial Net for Novel View Action Synthesis](https://arxiv.org/abs/2110.07993)<br>:star:[code](https://github.com/xhl-video/PAS-GAN)
-
-
-## Style Transfer(风格迁移)
+## 39.Style Transfer(风格迁移)
 * [PhotoWCT2: Compact Autoencoder for Photorealistic Style Transfer Resulting From Blockwise Training and Skip Connections of High-Frequency Residuals](https://openaccess.thecvf.com/content/WACV2022/papers/Chiu_PhotoWCT2_Compact_Autoencoder_for_Photorealistic_Style_Transfer_Resulting_From_Blockwise_WACV_2022_paper.pdf)
 * 3D场景风格化
   * [Stylizing 3D Scene via Implicit Representation and HyperNetwork](https://arxiv.org/abs/2105.13016)<br>:star:[code](https://github.com/ztex08010518/Stylizing-3D-Scene):house:[project](https://ztex08010518.github.io/3dstyletransfer/)
 
-## 音频处理
+<a name="38"/>
+
+## 38.Sound(音频处理)
 * [Beyond Mono to Binaural: Generating Binaural Audio From Mono Audio With Depth and Cross Modal Attention](https://arxiv.org/abs/2111.08046)<br>:house:[project](https://krantiparida.github.io/projects/bmonobinaural.html)
 * 声源定位
   * [Unsupervised Sounding Object Localization With Bottom-Up and Top-Down Attention](https://openaccess.thecvf.com/content/WACV2022/papers/Shi_Unsupervised_Sounding_Object_Localization_With_Bottom-Up_and_Top-Down_Attention_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/VISION-SJTU/USOL)
@@ -109,7 +136,33 @@
   * [Visually Guided Sound Source Separation and Localization Using Self-Supervised Motion Representations](https://arxiv.org/abs/2104.08506)<br>:house:[project](https://ly-zhu.github.io/self-supervised-motion-representations)
   * [V-SlowFast Network for Efficient Visual Sound Separation](https://openaccess.thecvf.com/content/WACV2022/papers/Zhu_V-SlowFast_Network_for_Efficient_Visual_Sound_Separation_WACV_2022_paper.pdf)<br>:house:[project](https://ly-zhu.github.io/V-SlowFast)
 
-## SLAM\Robots
+<a name="37"/>
+
+## 37.Object Tracking(目标跟踪)
+* [Intelligent Camera Selection Decisions for Target Tracking in a Camera Network](https://openaccess.thecvf.com/content/WACV2022/papers/Sharma_Intelligent_Camera_Selection_Decisions_for_Target_Tracking_in_a_Camera_WACV_2022_paper.pdf)
+* 多目标跟踪
+  * [Compensation Tracker: Reprocessing Lost Object for Multi-Object Tracking](https://openaccess.thecvf.com/content/WACV2022/papers/Zou_Compensation_Tracker_Reprocessing_Lost_Object_for_Multi-Object_Tracking_WACV_2022_paper.pdf)
+  * 细胞跟踪
+    * [Consistent Cell Tracking in Multi-Frames With Spatio-Temporal Context by Object-Level Warping Loss](https://openaccess.thecvf.com/content/WACV2022/papers/Hayashida_Consistent_Cell_Tracking_in_Multi-Frames_With_Spatio-Temporal_Context_by_Object-Level_WACV_2022_paper.pdf)
+
+<a name="36"/>
+
+## 36.Soft Biometrics(软生物技术)
+* Periocular(眼周) 识别
+  * [Attribute-Based Deep Periocular Recognition: Leveraging Soft Biometrics to Improve Periocular Recognition](https://arxiv.org/abs/2111.01325)
+
+
+<a name="35"/>
+
+## 35.VQA(视觉问答)
+* [InfographicVQA](https://arxiv.org/abs/2104.12756)<br>:star:[code](https://docvqa.org/)
+* [Efficient Counterfactual Debiasing for Visual Question Answering](https://openaccess.thecvf.com/content/WACV2022/papers/Kolling_Efficient_Counterfactual_Debiasing_for_Visual_Question_Answering_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/hengyuan-hu/bottom-up-attention-vqa)
+* Audio video scene-aware dialog(视听场景感知对话)
+  * [QUALIFIER: Question-Guided Self-Attentive Multimodal Fusion Network for Audio Visual Scene-Aware Dialog](https://openaccess.thecvf.com/content/WACV2022/papers/Ye_QUALIFIER_Question-Guided_Self-Attentive_Multimodal_Fusion_Network_for_Audio_Visual_Scene-Aware_WACV_2022_paper.pdf)
+
+<a name="34"/>
+
+## 34.SLAM\Robots
 * SLAM
   * [HybVIO: Pushing the Limits of Real-time Visual-inertial Odometry](https://arxiv.org/abs/2106.11857)<br>:star:[code](https://github.com/SpectacularAI/HybVIO)
   * [SIGNAV: Semantically-Informed GPS-Denied Navigation and Mapping in Visually-Degraded Environments](https://openaccess.thecvf.com/content/WACV2022/papers/Krasner_SIGNAV_Semantically-Informed_GPS-Denied_Navigation_and_Mapping_in_Visually-Degraded_Environments_WACV_2022_paper.pdf)
@@ -124,33 +177,6 @@
     * [Self-Supervised Domain Adaptation for Visual Navigation with Global Map Consistency](https://arxiv.org/abs/2110.07184)
     * [ForeSI: Success-Aware Visual Navigation Agent](https://openaccess.thecvf.com/content/WACV2022/papers/Moghaddam_ForeSI_Success-Aware_Visual_Navigation_Agent_WACV_2022_paper.pdf)
 
-## Lane Detection()
-* [Robust Lane Detection via Expanded Self Attention](https://arxiv.org/abs/2102.07037)
-
-
-## 37.Object Tracking(目标跟踪)
-* [Intelligent Camera Selection Decisions for Target Tracking in a Camera Network](https://openaccess.thecvf.com/content/WACV2022/papers/Sharma_Intelligent_Camera_Selection_Decisions_for_Target_Tracking_in_a_Camera_WACV_2022_paper.pdf)
-* 多目标跟踪
-  * [Compensation Tracker: Reprocessing Lost Object for Multi-Object Tracking](https://openaccess.thecvf.com/content/WACV2022/papers/Zou_Compensation_Tracker_Reprocessing_Lost_Object_for_Multi-Object_Tracking_WACV_2022_paper.pdf)
-  * 细胞跟踪
-    * [Consistent Cell Tracking in Multi-Frames With Spatio-Temporal Context by Object-Level Warping Loss](https://openaccess.thecvf.com/content/WACV2022/papers/Hayashida_Consistent_Cell_Tracking_in_Multi-Frames_With_Spatio-Temporal_Context_by_Object-Level_WACV_2022_paper.pdf)
-
-## 36.Soft Biometrics(软生物技术)
-* Periocular(眼周) 识别
-  * [Attribute-Based Deep Periocular Recognition: Leveraging Soft Biometrics to Improve Periocular Recognition](https://arxiv.org/abs/2111.01325)
-
-
-## 35.VQA(视觉问答)
-* [InfographicVQA](https://arxiv.org/abs/2104.12756)<br>:star:[code](https://docvqa.org/)
-* [Efficient Counterfactual Debiasing for Visual Question Answering](https://openaccess.thecvf.com/content/WACV2022/papers/Kolling_Efficient_Counterfactual_Debiasing_for_Visual_Question_Answering_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/hengyuan-hu/bottom-up-attention-vqa)
-* Audio video scene-aware dialog(视听场景感知对话)
-  * [QUALIFIER: Question-Guided Self-Attentive Multimodal Fusion Network for Audio Visual Scene-Aware Dialog](https://openaccess.thecvf.com/content/WACV2022/papers/Ye_QUALIFIER_Question-Guided_Self-Attentive_Multimodal_Fusion_Network_for_Audio_Visual_Scene-Aware_WACV_2022_paper.pdf)
-
-<a name="34"/>
-
-## 34.Camera Pose Estimation(相机姿势估计)
-* [A Structure-Aware Method for Direct Pose Estimation](https://arxiv.org/abs/2012.12360)<br>:star:[code](https://github.com/mvrl/structure-aware-pose-estimation)
-
 <a name="33"/>
 
 ## 33.View Synthesis(视图合成)
@@ -162,6 +188,7 @@
 
 ## 32.Continual Learning(持续学习)
 * [Knowledge Capture and Replay for Continual Learning](https://arxiv.org/abs/2012.06789)
+* [Online Continual Learning via Candidates Voting](https://arxiv.org/abs/2110.08855)
 
 <a name="31"/>
 
@@ -189,10 +216,14 @@
 
 <a name="28"/>
 
-## 28.Object Pose Estimation(物体姿态估计)
-* [Occlusion-Robust Object Pose Estimation with Holistic Representation](https://arxiv.org/abs/2110.11636)<br>:star:[code](https://github.com/BoChenYS/ROPE)
+## 28.Pose Estimation(姿态估计)
+* 物品姿势估计
+  * [Occlusion-Robust Object Pose Estimation with Holistic Representation](https://arxiv.org/abs/2110.11636)<br>:star:[code](https://github.com/BoChenYS/ROPE)
 * Object Pose Refinement
   * [SporeAgent: Reinforced Scene-Level Plausibility for Object Pose Refinement](https://openaccess.thecvf.com/content/WACV2022/papers/Bauer_SporeAgent_Reinforced_Scene-Level_Plausibility_for_Object_Pose_Refinement_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/dornik/sporeagent)
+* 动物姿势
+  * [Equine Pain Behavior Classification via Self-Supervised Disentangled Pose Representation](https://openaccess.thecvf.com/content/WACV2022/papers/Rashid_Equine_Pain_Behavior_Classification_via_Self-Supervised_Disentangled_Pose_Representation_WACV_2022_paper.pdf)
+
 <a name="27"/>
 
 ## 27.Defect Detection(缺陷检测)
@@ -248,6 +279,12 @@
     * [Adversarial Robustness of Deep Sensor Fusion Models](https://arxiv.org/abs/2006.13192)
 * 车辆定位
   * [CoordiNet: Uncertainty-Aware Pose Regressor for Reliable Vehicle Localization](https://arxiv.org/abs/2103.10796)
+* Vehicle Detection(交通检测)
+  * 基于航空图像的交通监控
+    * [AirCamRTM: Enhancing Vehicle Detection for Efficient Aerial Camera-Based Road Traffic Monitoring](https://openaccess.thecvf.com/content/WACV2022/papers/Makrigiorgis_AirCamRTM_Enhancing_Vehicle_Detection_for_Efficient_Aerial_Camera-Based_Road_Traffic_WACV_2022_paper.pdf)
+* Lane Detection(车道线检测)
+  * [Robust Lane Detection via Expanded Self Attention](https://arxiv.org/abs/2102.07037)
+
 
 <a name="22"/>
 
