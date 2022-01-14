@@ -151,7 +151,6 @@
 * Periocular(眼周) 识别
   * [Attribute-Based Deep Periocular Recognition: Leveraging Soft Biometrics to Improve Periocular Recognition](https://arxiv.org/abs/2111.01325)
 
-
 <a name="35"/>
 
 ## 35.VQA(视觉问答)
@@ -375,7 +374,7 @@
 * [DAQ: Channel-Wise Distribution-Aware Quantization for Deep Image Super-Resolution Networks](https://arxiv.org/abs/2012.11230)
 * [Hyperspectral Image Super-Resolution With RGB Image Super-Resolution as an Auxiliary Task](https://openaccess.thecvf.com/content/WACV2022/papers/Li_Hyperspectral_Image_Super-Resolution_With_RGB_Image_Super-Resolution_as_an_Auxiliary_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/kli8996/HSISR)
 * VSR
-* [MEGAN: Memory Enhanced Graph Attention Network for Space-Time Video Super-Resolution](https://arxiv.org/abs/2110.15327)
+  * [MEGAN: Memory Enhanced Graph Attention Network for Space-Time Video Super-Resolution](https://arxiv.org/abs/2110.15327)
 * BSR
   * [MoESR: Blind Super-Resolution Using Kernel-Aware Mixture of Experts](https://openaccess.thecvf.com/content/WACV2022/papers/Emad_MoESR_Blind_Super-Resolution_Using_Kernel-Aware_Mixture_of_Experts_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/memad73/MoESR)
 
@@ -445,7 +444,7 @@
 * 超像素分割
   * [HERS Superpixels: Deep Affinity Learning for Hierarchical Entropy Rate Segmentation](https://openaccess.thecvf.com/content/WACV2022/papers/Peng_HERS_Superpixels_Deep_Affinity_Learning_for_Hierarchical_Entropy_Rate_Segmentation_WACV_2022_paper.pdf)<br>:star:[code](https://github.com/hankuipeng/DAL-HERS)
 * 道路分割
- * [VCSeg: Virtual Camera Adaptation for Road Segmentation](https://openaccess.thecvf.com/content/WACV2022/papers/Cheng_VCSeg_Virtual_Camera_Adaptation_for_Road_Segmentation_WACV_2022_paper.pdf)
+  * [VCSeg: Virtual Camera Adaptation for Road Segmentation](https://openaccess.thecvf.com/content/WACV2022/papers/Cheng_VCSeg_Virtual_Camera_Adaptation_for_Road_Segmentation_WACV_2022_paper.pdf)
 * 抠图
   * 视频抠图
     * [Robust High-Resolution Video Matting with Temporal Guidance](https://arxiv.org/abs/2108.11515)<br>:star:[code](https://github.com/PeterL1n/RobustVideoMatting):house:[project](https://peterl1n.github.io/RobustVideoMatting/#/):tv:[video](https://youtu.be/Ay-mGCEYEzM)
