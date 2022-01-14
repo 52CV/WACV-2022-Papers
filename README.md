@@ -1,5 +1,11 @@
 # 52CV-WACV-Papers
 
+## 历年综述论文分类汇总戳这里↘️[CV-Surveys](https://github.com/52CV/CV-Surveys)施工中~~~~~~~~~~
+## WACV2022论文分类汇总戳这里↘️[WACV-2022-Papers](https://github.com/52CV/WACV-2022-Papers)
+## ICCV2021论文分类汇总戳这里↘️[ICCV-2021-Papers](https://github.com/52CV/ICCV-2021-Papers)
+## CVPR2021论文分类汇总戳这里↘️[CVPR-2021-Papers](https://github.com/52CV/CVPR-2021-Papers)
+## CVPR2020论文分类汇总戳这里↘️[CVPR-2020-Papers](https://github.com/52CV/CVPR-2020-Papers)
+## ECCV2020论文分类汇总戳这里↘️[ECCV-2020-Papers](https://github.com/52CV/ECCV-2020-Papers)
 
 # :exclamation::exclamation::exclamation::star2::star2::star2:📗📗📗WACV 2022收录论文已全部公布，下载可在【我爱计算机视觉】后台回复“paper”，即可收到。共计 406 篇。
 
